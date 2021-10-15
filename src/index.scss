@@ -80,3 +80,35 @@ body {
   font-size: 14px;
   color: #c4c4c4;
 } /* IE */
+
+.sidebar {
+  width: 400px;
+  background-color: #214fa4;
+  height: 100vh;
+
+  .sidebar__title {
+    align-items: center;
+    padding: 10px 40px;
+    h2 {
+      padding: 0 20px;
+      color: #fff;
+    }
+  }
+  img {
+    width: 30px;
+  }
+  .block-sidebar__link {
+    align-items: center;
+    padding: 10px 40px;
+    cursor: pointer;
+
+    h4 {
+      margin: 0 20px;
+      color: #fff;
+      border-bottom: 3px solid #214fa4;
+      &:hover {
+        border-bottom: 3px solid #fff;
+      }
+    }
+  }
+}
