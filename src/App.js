@@ -1,14 +1,11 @@
 import React from "react";
-import Login from "./components/Login";
-import Home from "./components/Home";
+import AppRouter from "./components/AppRouter";
 
 function App() {
-  const [logInPage, setLogInPage] = React.useState(true);
-
   return (
-    <div>
-      {logInPage ? <Login onClickBtn={() => setLogInPage(false)} /> : <Home />}
-    </div>
+    <>
+      <AppRouter />
+    </>
   );
 }
 
